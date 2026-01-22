@@ -4,6 +4,9 @@ on:
   release:
     types: [published]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: windows-latest
@@ -24,5 +27,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            bin/Release/net47/OneHit.dll
-            bin/Release/net47/OneHit.pdb
+            bin/Release/net4.7/OneHit.dll
+            bin/Release/net4.7/OneHit.pdb
