@@ -4,6 +4,6 @@ namespace OneHit
     {
         public const string NAME = "One Hit";
         public const string GUID = "tipe.shadyknight.onehit";
-        public const string VERSION = "0.0.0";
+        public const string VERSION = "1.0.0";
     }
 }
